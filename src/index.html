@@ -9,39 +9,120 @@
 </head>
 <body>
 
-  <!--
-    Previous project placeholder begins
-  -->
-  <div class="header">
-    <h1>Morgan McCircuit</h1>
-    <h2>I write code</h2>
+ <nav class="navbar navbar-default">
+   <div class="container-fluid">
+     <div class="navbar-header"><a class="navbar-brand">MonkTRADER</a></div>
+     <ul class="list-unstyled nav navbar-nav">
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+     </ul>
+   </div>
+ </nav>
+
+<!--Add some Carousel-->
+ <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+   <!-- Indicators -->
+   <ol class="carousel-indicators">
+     <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+     <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+     <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+   </ol>
+   <div class="carousel-inner" role="listbox">
+     <div class="item active">
+       <div class="container">
+         <div class="carousel-caption">
+           <h1>ABOUT WHAT</h1>
+           <p>Being a Trader born as Monkey Zodiac 1992 somehow it's not easy to just sit back and relax while trading in my office room</p>
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <div class="container">
+         <div class="carousel-caption">
+           <h1>WHY HERE</h1>
+           <p>Too Mundane actuarial job, no freedom drives me through pursuing anything without maximum potential to my capability.. Though difficult at first but keep try and try</p>
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <div class="container">
+         <div class="carousel-caption">
+           <h1>HOW HERE</h1>
+           <p>In Technical Analysis term, we always heard that "History cannot predict the future" but you know right that Futures can repeat itself This is just like my life since I was young</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
+
+<div class="marketing">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4"><span class="glyphicon glyphicon-music"></span>
+        <h3>Sync Music</h3>
+        <p>Connect Share and Receive</p>
+      </div>
+      <div class="col-md-4"><span class="glyphicon glyphicon-film"></span>
+        <h3>Watch Movies</h3>
+        <p>MonkTrader let you enjoy Financial Movies for Free after you shared cool stuffs</p>
+      </div>
+      <div class="col-md-4"><span class="glyphicon glyphicon-lock"></span>
+        <h3>Business Travel</h3>
+        <p>Uhuh! Not A Serious Business Trip Once you have getting yourself ready trade and experience in gorgeous relaxing places in the world</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="header text-center">
+      <h2>Pattraramon Chaiwattanachai</h2>
+      <h4><i>Freelance Trader</i></h4>
+  </div>
+  <div class="well">
+    <div class="tagline">
+      <h3><strong>More About me</strong></h3>
+      <p>I have been resigning for full-time job and work as a trader. However, I am also interested in web application and development skill so that it would benefit my financial analysis in the future</p>
+    </div>
+    <div class="skills">
+      <ul class="list-unstyled"><h3><strong>Skills</strong></h3>
+        <p>Below are lists of computer skills I've possessed from <a href='www.codeschool.com'>codeschool.com</a></p>
+        <li>HTML</li>
+        <li>Data Analysis</li>
+        <li>Javascript CSS Angular</li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h3><strong>Contact Me</strong></h3>
+      <p>Please twitter me as <a style="" href="https://twitter.com/bizbew">bizbew</a></p>
+    </div>
+  </div>
   </div>
 
-  <div class="tagline">
-    <h3>Who I am</h3>
-    <p>Hi, my name is Morgan and I love to write code that is efficient.</p>
+
+
+<footer>
+  <div class="container">
+  <div class="col-md-6">
+    <h3>For More Information, Please Visit below</h3>
+    <p>For Tweet, please follow link<a href="https://twitter.com/bizbew">&nbsp;&nbsp;CLICK!</a></p>
   </div>
-
-
-  <div class="skills">
-    <h3>What I do</h3>
-    <p>Here are some of the languages I use on a day-to-day.</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
+  <div class="col-md-3 col-md-offset-3 text-right" style="font-size:25px">
+    <span class="glyphicon glyphicon-globe"></span>
+    <span class="glyphicon glyphicon-phone-alt"></span>
+    <span class="glyphicon glyphicon-send"></span>
   </div>
-
-  <div class="contact">
-    <h3>Get in touch</h3>
-    <p>I live in the cloud and can't be seen. Send messages to the good people at <a target="_blank" href="https://twitter.com/codeschool">Code School</a> and they'll notify me.</p>
-  </div>
-  <!--
-    Previous project placeholder ends
-    (unused pieces will be deleted at the last task)
-  -->
-
+</div>
+</footer>
 
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
